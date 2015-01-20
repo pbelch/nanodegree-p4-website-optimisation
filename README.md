@@ -6,7 +6,7 @@ To run the site simply download, unzip and then run the index.html file
 <br/>
 Sources used to complete this project are included in the references text file
 <br/>
-<b>Summary Of Improvements</b>
+
 ======================
 Main Homepage Directory (/)
 =======================
