@@ -6,23 +6,25 @@ To run the site simply download, unzip and then run the index.html file
 <br/>
 Sources used to complete this project are included in the references text file
 <br/>
-<b>Summary Of Improvements</b>
+<br/>
 ======================
 Main Homepage Directory (/)
 =======================
--Saving of web image and script called files locally, reducing DNS and process delay time
--Image comression
--JS scripts minifed and placed at the bottom of each page
--CSS scripts combined and minified
--Removal of font download
--HTML code whitespace removal
--Change '/' to '#' to prevent dir listing
-
-
+-Saving of web image and script called files locally, reducing DNS and process delay time<br/>
+-Image comression<br/>
+-JS scripts minifed and placed at the bottom of each page<br/>
+-CSS scripts combined and minified<br/>
+-Removal of font download<br/>
+-HTML code whitespace removal<br/>
+-Change '/' to '#' to prevent dir listing<br/>
+<br/>
+<br/>
 ======================
 Views Directory (Pizza Site)
 =======================
--Removal of unused CSS from bootstrap file,combination with style.css and minification of the result
--Shrinking of images using chrome dev tools image compression
--Resolving of render blocking issues im main js file
--Addition of viewport css
+-Removal of unused CSS from bootstrap file,combination with style.css and minification of the result<br/>
+-Shrinking of images using chrome dev tools image compression<br/>
+-Improvement of loop performance by not checking for width every time
+-Cache of scrollTop
+-Addition of viewport css<br/>
+<br/>

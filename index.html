@@ -52,7 +52,9 @@
 		</div>
 	</body>
 	<script src="js/analytics.js"></script>
-	<script async="" src="js/perfmatters.js"></script>
+	<script>
+		function logCRP(){var e=window.performance.timing,t=e.domContentLoadedEventStart-e.domLoading,n=e.domComplete-e.domLoading;var r=document.getElementById("crp-stats");r.textContent="DCL: "+t+"ms, onload: "+n+"ms"}window.addEventListener("load",function(e){logCRP()})
+	</script>
 	<script>
 		(function(w,g){w['GoogleAnalyticsObject']=g;
 		w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
