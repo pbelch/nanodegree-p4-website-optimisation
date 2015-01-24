@@ -24,11 +24,7 @@ Views Directory (Pizza Site)
 =======================
 -Removal of unused CSS from bootstrap file,combination with style.css and minification of the result<br/>
 -Shrinking of images using chrome dev tools image compression<br/>
-<<<<<<< HEAD
--Improvement of loop performance by not checking for width every time
--Cache of scrollTop
-=======
+-Improvement of loop performance by not checking for width every time<br/>
+-Cache of scrollTop<br/>
 -Resolving of render blocking issues im main js file<br/>
->>>>>>> origin/master
 -Addition of viewport css<br/>
-<br/>
